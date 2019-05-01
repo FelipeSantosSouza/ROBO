@@ -7,7 +7,7 @@ dominio = "https://www.bmginvestdigital.com.br/Home/investimentos"
 def capturarConterudoEsp():
     opt = Options()
     opt.headless = True
-    driver = webdriver.Firefox(options=opt, executable_path=r'geckodriver.exe')
+    driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "product")
     gerarInvestimentoEsp(elemento)
