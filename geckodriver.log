@@ -1,0 +1,265 @@
+1556719269832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.ciSaCKdA1R0V"
+1556719330520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.U1ovmo8UPGMn"
+*** You are running in headless mode.
+1556719336942	Marionette	INFO	Listening on port 50222
+1556719337183	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556719337330	Marionette	DEBUG	[6442450945] Frame script loaded
+1556719337332	Marionette	DEBUG	[6442450945] Frame script registered
+1556719337356	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556719339934	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556719340106	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.com/?gws_rd=ssl
+1556719341244	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.com/?gws_rd=ssl
+1556719341254	Marionette	INFO	Stopped listening on port 50222
+1556719341304	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 9804, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1556719371314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.5vOqU0jKCIxj"
+1556719376798	Marionette	INFO	Listening on port 50270
+1556719376858	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556719376921	Marionette	DEBUG	[6442450945] Frame script loaded
+1556719376925	Marionette	DEBUG	[6442450945] Frame script registered
+1556719376949	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556719380851	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556719381046	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.com/?gws_rd=ssl
+1556719382384	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.com/?gws_rd=ssl
+1556719382414	Marionette	INFO	Stopped listening on port 50270
+1556719382519	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 7868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10456, Chr[Parent 7868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7612,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1556720811625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.EkT1RmKe9O03"
+1556720817316	Marionette	INFO	Listening on port 50543
+1556720817682	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556720817729	Marionette	DEBUG	[6442450945] Frame script loaded
+1556720817731	Marionette	DEBUG	[6442450945] Frame script registered
+1556720817759	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556720819737	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: https://embed.tawk.to/59513eb8e9c6d324a4737643/default, line 236: TypeError: this.getBrowserData is not a function
+JavaScript error: https://embed.tawk.to/59513eb8e9c6d324a4737643/default, line 605: TypeError: document.body is null
+1556720823355	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556720830020	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+1556720830120	Marionette	INFO	Stopped listening on port 50543
+[Parent 4352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 10496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chro
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+me/common/
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E00B1,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 4352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1556720889828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.OV0tmqQ3GYIY"
+1556720895644	Marionette	INFO	Listening on port 50648
+1556720899381	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+[Child 7796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 779[Child 4812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 48[Parent 4668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7952, Chrome_ChildThread] WARNING: pipJavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1556720905384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.pBAMEwsIef9l"
+*** You are running in headless mode.
+1556720911162	Marionette	INFO	Listening on port 50673
+1556720911613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556720911660	Marionette	DEBUG	[6442450945] Frame script loaded
+1556720911661	Marionette	DEBUG	[6442450945] Frame script registered
+1556720911692	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556720912859	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556720916033	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1556720916140	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556720925529	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+2687	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556721052738	Marionette	DEBUG	[6442450945] Frame script loaded
+1556721052744	Marionette	DEBUG	[6442450945] Frame script registered
+1556721052774	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556721054531	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: https://embed.tawk.to/59513eb8e9c6d324a4737643/default, line 236: TypeError: this.getBrowserData is not a function
+JavaScript error: https://embed.tawk.to/59513eb8e9c6d324a4737643/default, line 605: TypeError: document.body is null
+1556721057579	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556721064537	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+1556721068550	Marionette	INFO	Stopped listening on port 50909
+[Parent 9360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1[Child 7088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 102601556721688229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.eLFrU2f16N8X"
+*** You are running in headless mode.
+1556721693809	Marionette	INFO	Listening on port 51209
+1556721693923	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556721693992	Marionette	DEBUG	[6442450945] Frame script loaded
+1556721694011	Marionette	DEBUG	[6442450945] Frame script registered
+1556721694039	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556721696405	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556721697844	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556721699290	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1556721704273	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+1556721708914	Marionette	INFO	Stopped listening on port 51209
+[Parent 8628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Child 6192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/sr
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+c/chrome/common/ipc_channel_win.1556722551196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.UyHF4LHcjART"
+*** You are running in headless mode.
+1556722556427	Marionette	INFO	Listening on port 51643
+1556722556657	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556722556715	Marionette	DEBUG	[6442450945] Frame script loaded
+1556722556718	Marionette	DEBUG	[6442450945] Frame script registered
+1556722556745	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556722557677	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556722559455	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556722561329	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1556722567667	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+2218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556722632296	Marionette	DEBUG	[6442450945] Frame script loaded
+1556722632302	Marionette	DEBUG	[6442450945] Frame script registered
+1556722632346	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556722634223	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556722636478	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556722637124	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1556722643710	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+4471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556722714548	Marionette	DEBUG	[6442450945] Frame script loaded
+1556722714553	Marionette	DEBUG	[6442450945] Frame script registered
+1556722714580	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556722716979	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: https://embed.tawk.to/59513eb8e9c6d324a4737643/default, line 236: TypeError: this.getBrowserData is not a function
+JavaScript error: https://embed.tawk.to/59513eb8e9c6d324a4737643/default, line 605: TypeError: document.body is null
+1556722721490	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556722728469	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+4426	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556722754523	Marionette	DEBUG	[6442450945] Frame script loaded
+1556722754533	Marionette	DEBUG	[6442450945] Frame script registered
+1556722754582	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556722757336	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556722759532	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556722760720	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+1556722765372	Marionette	INFO	Stopped listening on port 52507
+[Child 11724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bJavaScript error: huild/src/ipc/chrttps://secure-ds.serving-sys.com/SemiCachedSomium/src/cripts/ebOneTag.js, line 91: ReferenceError: bchrome/common/ipc_channel_win.cc, line 34sRe6
+sponseObj [Child 11724, Cis not defined
+[Parent 11376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromi[Parent 11376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 451556723286211	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.aCCqEYatcA3E"
+*** You are running in headless mode.
+1556723307830	Marionette	INFO	Listening on port 57072
+[Parent 14092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5892, Ch1556723308466	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556723308552	Marionette	DEBUG	[6442450945] Frame script loaded
+1556723308558	Marionette	DEBUG	[6442450945] Frame script registered
+1556723308596	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556723309956	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556723312152	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1556723312156	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bmginvestdigital.com.br/Home/investimentos
+1556723319479	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bmginvestdigital.com.br/Home/investimentos
+1556723323722	Marionette	INFO	Stopped listening on port 57072
+[Parent 14092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 13484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
