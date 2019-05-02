@@ -3,10 +3,10 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from pyvirtualdisplay import Display
 from  Investimento import Investimento as inv
-
+import json
 dominio = "https://www.bmginvestdigital.com.br/Home/investimentos"
 
-def capturarConterudoEsp():
+def start():
     display = Display(visible=0, size=(1024, 768))
     display.start()
     opt = Options()
@@ -14,9 +14,10 @@ def capturarConterudoEsp():
     driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "product")
-    gerarInvestimentoEsp(elemento)
+    lista = gerarInvestimentoEsp(elemento)
     driver.quit()
     display.stop()
+    toJson(lista)
 
 def gerarInvestimentoEsp(elemento):
     listaInv = []
@@ -34,7 +35,13 @@ def gerarInvestimentoEsp(elemento):
             listaInv.append(investimento)
         except:
             print("Investimento Nulo!")
-    for linha in listaInv:
-        print(linha)
+    return listaInv
 
-capturarConterudoEsp()
+def toJson(lista):
+    conteudo = []
+    for linha in lista:
+        conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "aplicacao_min":linha.aplicacao_min, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
+    with open('jsonBmg.json', 'w', encoding="utf8") as outfile:
+        json.dump(conteudo, outfile, default="serialize")
+
+start()
