@@ -9,7 +9,7 @@ def capturarConterudoEsp():
     display.start()
     opt = Options()
     opt.headless = True
-    driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
+    driver = webdriver.PhantomJS()
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "product")
     gerarInvestimentoEsp(elemento)
