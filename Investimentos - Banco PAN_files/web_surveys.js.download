@@ -1,0 +1,7 @@
+var _svc = window._svc || {};var _svd = window._svd || {};_svc.workspaceKey = _svc.workspaceKey || '6519d0b0bf82c1c6cac4ea459339d0a6';_svd.integrations = _svd.integrations || [{"provider":"segment","enabled":true}];(function () {
+  var s = document.createElement('script');
+  s.src = 'https://surveys-static.survicate.com/web_core-1.0.1.js';
+  s.async = true;
+  var e = document.getElementsByTagName('script')[0];
+  e.parentNode.insertBefore(s, e);
+})();

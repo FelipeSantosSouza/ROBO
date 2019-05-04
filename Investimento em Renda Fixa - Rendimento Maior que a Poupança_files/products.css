@@ -1,0 +1,286 @@
+.product {
+    padding-bottom: 30px;
+    background-color: #F2F2F2
+}
+
+.product__filter {
+    padding: 0 16px 20px 16px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16)
+}
+
+.product__filter__title {
+    /*font-size: 1.25rem;*/
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0
+}
+
+.product__filter .select-group {
+    width: 100%
+}
+
+.product__header {
+    padding: 40px 0 0 0
+}
+
+.product__header__title {
+    font-size: 1.5rem;
+    font-weight: bold
+}
+
+.product__details {
+    padding: 16px;
+    margin: 0 -16px 0 -16px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16)
+}
+
+.product__details__best-seller {
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: inline-block;
+    padding: 7px 16px 8px 16px;
+    color: #F89C1C;
+    border-right: 1px solid #F89C1C;
+    border-top: 1px solid #F89C1C;
+    border-bottom: 1px solid #F89C1C;
+    margin: 0 0 10px -16px;
+    position: relative;
+    font-size: 14px;
+}
+
+.product__details__view-more {
+    color: #f47920;
+    text-decoration: none
+}
+
+    .product__details__view-more:hover {
+        text-decoration: underline
+    }
+
+.product__details__group {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #CDCDCD
+}
+
+    .product__details__group:first-child {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none
+    }
+
+.product__details__group__empty__title {
+    color: #AFAFAF;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.product__details__group .btn {
+    width: 70%
+}
+
+.product__details__list {
+    margin-bottom: 20px
+}
+
+.product__details__item {
+    margin-bottom: 7px
+}
+
+    .product__details__item:before, .product__details__item:after {
+        content: "";
+        display: table
+    }
+
+    .product__details__item:after {
+        clear: both
+    }
+
+.product__details .title {
+    width: 50%;
+    float: left
+}
+
+.product__details .desc {
+    width: 50%;
+    float: left;
+    text-align: right
+}
+
+    .product__details .desc.bold {
+        font-weight: bold;
+        /*font-family: 'Proxima Nova Th',Arial,Helvetica, sans-serif*/
+        font-family: 'Comfortaa', cursive;
+    }
+
+.product__footer {
+    padding: 0 16px;
+    margin: 0 -16px 0 -16px;
+    background-color: #ffffff
+}
+
+.product__footer--simple {
+    background: transparent;
+    padding: 20px 16px 0 16px
+}
+
+.product__footer__view-more {
+    padding: 20px 0;
+    border-top: 1px solid #CDCDCD;
+    display: block;
+    color: #F89C1C;
+    text-decoration: none;
+    position: relative
+}
+
+    .product__footer__view-more:before {
+        content: "";
+        /*background-image: url("/Content/home_new/images/expand_more_orange.svg");*/
+        width: 16px;
+        height: 12px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        -webkit-transform: translateY(-35%);
+        transform: translateY(-35%);
+        background-position: center
+    }
+
+@media screen and (min-width: 768px) {
+    .product {
+        padding-bottom: 40px
+    }
+
+    .product__filter {
+        margin: 0;
+        padding: 0 16px 40px 16px
+    }
+
+    .product__filter__title {
+        display: inline-block;
+        margin: 0
+    }
+
+    .product__filter .select-group {
+        width: auto;
+        display: inline-block
+    }
+
+    .product__filter__option {
+        width: auto;
+        padding: 0 20px 6px 6px !important;
+        display: inline-block
+    }
+
+    .product__group {
+        padding: 40px 0 0 0
+    }
+
+    .product__header {
+        padding: 0
+    }
+
+    .product__header__title {
+        font-size: 2rem
+    }
+
+    .product__header__details {
+        margin: 4px 0 30px 0;
+        line-height: 1.5;
+    }
+
+    .product__details {
+        margin: 0;
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+
+    .product__details__group {
+        padding: 16px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16);
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16);
+        width: 47%;
+        margin: 0 2% 2%;
+        display: inline-block;
+        vertical-align: top;
+        border-top: none;
+        border-radius: 4px
+    }
+
+        .product__details__group:nth-child(2n+1) {
+            margin-left: 0
+        }
+
+        .product__details__group:first-child {
+            padding: 16px;
+            margin-left: 0
+        }
+
+    .product__footer {
+        background: none;
+        padding: 10px 0 0 0;
+        margin: 0;
+        text-align: center
+    }
+
+    .product__footer--simple {
+        text-align: left
+    }
+
+    .product__footer__view-more {
+        padding: 16px 20px 16px 20px;
+        border: 1px solid #F89C1C;
+        display: inline-block;
+        border-radius: 60px
+    }
+
+        .product__footer__view-more:hover {
+            border-color: #F58219;
+            color: #F58219
+        }
+
+        .product__footer__view-more:before {
+            top: 50%;
+            right: 15px;
+            -webkit-transform: translateY(-25%);
+            transform: translateY(-25%)
+        }
+}
+
+@media screen and (min-width: 1100px) {
+    .product__details__group {
+        width: 30%
+    }
+
+        .product__details__group:nth-child(2n+1) {
+            margin-left: 2%
+        }
+
+        .product__details__group:nth-child(3n+1) {
+            margin-left: 0
+        }
+}
+
+.product__header__title a {
+    text-decoration: none;
+    color: #333333;
+}
+
+    .product__header__title a:hover {
+        text-decoration: underline;
+        color: #666666;
+    }

@@ -1,0 +1,63 @@
+/* $Revision: 20493 $ $Date: 2017-08-31 16:25:11 +0000 (Thu, 31 Aug 2017) $ */
+(function()
+{
+	// check for the presence of LumisPortal object
+	if(typeof(LumisPortal) === "undefined")
+	{
+		(console.warn || console.log)("LumisPortal.js is required for the page view logger.");
+		return;
+	}
+
+	// track the time user spent in current page
+	var curSum = 0;
+	var lastDateTime = new Date().getTime();
+	
+	LumisPortal.bindReady(function()
+	{
+		window.addEventListener("focus", function()
+		{
+			lastDateTime = new Date().getTime();
+		});
+		
+		window.addEventListener("blur", function(){
+			curSum += (new Date().getTime() - lastDateTime);
+			lastDateTime = new Date().getTime();
+		});
+		
+		window.addEventListener("beforeunload", function()
+		{
+			// calculate the time spent in page
+			curSum += (new Date().getTime() - lastDateTime);
+			var viewDuration = curSum;
+
+			// get XmlHttpObj
+			var xmlHttp = LumisPortal.getXmlHttpObject();
+
+			// URL
+			var url =
+				g_LumisRootPath
+				+ "lumis/api/rest/lum-internal/monitor/pageView?lumReferer="
+				+ LumisPortal.lumisEncodeURIComponent(document.location.href)
+				+ "&duration=" + viewDuration;
+
+			// add referrer, if any
+			if(document.referrer && document.referrer.length > 0)
+			{
+				url += "&referrer=" + LumisPortal.lumisEncodeURIComponent(document.referrer);
+			}
+			
+			// if firefox browser make a sync ajax call.
+			var isFirefox = typeof InstallTrigger !== 'undefined';
+			if(isFirefox)
+			{
+			    xmlHttp.open("PUT", url, false);
+			}
+			else
+			{
+			    xmlHttp.open("PUT", url, true);
+			}
+			// log pageview
+			xmlHttp.send();
+		});
+	});
+})();

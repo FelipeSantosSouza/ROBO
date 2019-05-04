@@ -1,0 +1,455 @@
+1556928638670	geckodriver	INFO	geckodriver 0.20.1
+1556928638689	geckodriver	INFO	Listening on 127.0.0.1:50512
+1556928641906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.OL66LzYe6D7l"
+*** You are running in headless mode.
+1556928655579	Marionette	INFO	Listening on port 50525
+1556928655655	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556928655716	Marionette	DEBUG	[4294967297] Frame script loaded
+1556928655949	Marionette	DEBUG	[4294967297] Frame script registered
+1556928656225	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1556928657393	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1556928657845	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556928657860	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556928657867	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556928658143	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556928662690	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967302
+1556928662690	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967303
+1556928662698	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556928665120	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967308
+1556928665319	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967310
+1556928666682	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967315
+1556928667531	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967319
+1556928668704	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929039494	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1556929039495	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1556929039504	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1556929039505	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1556929039505	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1556929039506	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+n.com.br/produtos/investimentos/
+1556928789712	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556928793647	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556928793647	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556928793671	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556928796086	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556928796104	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556928798114	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1556928799186	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1556928799470	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929172675	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1556929172676	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1556929172679	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1556929172679	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1556929172679	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1556929172680	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+n.com.br/produtos/investimentos/
+1556928903232	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556928906446	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556928906446	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556928906448	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556928908779	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556928908795	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556928911041	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1556928912497	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1556928916126	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929287244	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1556929287245	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1556929287247	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1556929287247	addons.xpi-utils	WARN	Add-on telemetry-coverage-bug1487578@mozilla.org is not correctly signed.
+1556929287248	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1556929287248	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+n.com.br/produtos/investimentos/
+1556929045423	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556929048918	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556929048918	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556929048927	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556929051055	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1556929052260	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1556929053928	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1556929054544	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929054697	Marionette	INFO	Stopped listening on port 51295
+[Parent 8856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8856, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 6156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6156, Chrom[Parent 8856, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 8856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1556929085046	geckodriver	INFO	geckodriver 0.20.1
+1556929085081	geckodriver	INFO	Listening on 127.0.0.1:51433
+1556929088098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.NwLgYdetz09O"
+*** You are running in headless mode.
+1556929108132	Marionette	INFO	Listening on port 51444
+[Child 3332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1556929108196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556929108290	Marionette	DEBUG	[6442450945] Frame script loaded
+1556929108294	Marionette	DEBUG	[6442450945] Frame script registered
+1556929108334	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556929109754	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556929109913	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929109922	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556929109931	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556929110003	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556929113966	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556929113966	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556929113969	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556929116393	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1556929117812	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1556929119983	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1556929121192	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929121326	Marionette	INFO	Stopped listening on port 51444
+[Child 11776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 17232, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9032, Chro1556929243129	geckodriver	INFO	geckodriver 0.20.1
+1556929243160	geckodriver	INFO	Listening on 127.0.0.1:51715
+1556929246198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.VAeg3gmdBZdg"
+*** You are running in headless mode.
+1556929253790	Marionette	INFO	Listening on port 51725
+1556929254067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556929254146	Marionette	DEBUG	[6442450945] Frame script loaded
+1556929254149	Marionette	DEBUG	[6442450945] Frame script registered
+1556929254180	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556929256464	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556929256645	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929256649	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556929256658	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556929256755	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556929261175	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556929261176	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556929261219	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556929265234	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556929266736	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1556929267364	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929269883	Marionette	INFO	Stopped listening on port 51725
+[Child 5524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 13192, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13192, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1556929925417	geckodriver	INFO	geckodriver 0.20.1
+1556929925437	geckodriver	INFO	Listening on 127.0.0.1:52458
+1556929928447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.3HJ5v1bZv2zJ"
+*** You are running in headless mode.
+1556929933352	Marionette	INFO	Listening on port 52468
+1556929933689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556929933739	Marionette	DEBUG	[6442450945] Frame script loaded
+1556929933742	Marionette	DEBUG	[6442450945] Frame script registered
+1556929933769	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556929935239	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556929935390	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929935397	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556929935402	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556929935634	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556929938727	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556929938727	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556929938755	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556929941141	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556929941215	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556929942096	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1556929943183	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1556929943682	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556929943915	Marionette	INFO	Stopped listening on port 52468
+[Child 10860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10[Parent 10936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[1556930861058	geckodriver	INFO	geckodriver 0.20.1
+1556930861076	geckodriver	INFO	Listening on 127.0.0.1:53455
+1556930864217	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.944MKWB14ihc"
+*** You are running in headless mode.
+1556930871288	Marionette	INFO	Listening on port 53466
+1556930871600	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556930871648	Marionette	DEBUG	[6442450945] Frame script loaded
+1556930871651	Marionette	DEBUG	[6442450945] Frame script registered
+1556930871677	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556930872795	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556930872981	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556930872987	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556930872999	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556930873287	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556930877956	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556930877957	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556930877994	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556930881567	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556930881596	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556930883114	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1556930883913	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1556930884069	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556930884340	Marionette	INFO	Stopped listening on port 53466
+[Parent 15084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10[Parent 15084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12148, Chrome_ChildThread] WARNING: pi1556931028616	geckodriver	INFO	geckodriver 0.20.1
+1556931028636	geckodriver	INFO	Listening on 127.0.0.1:53700
+1556931031622	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.uSuFPimYFWa8"
+*** You are running in headless mode.
+1556931038445	Marionette	INFO	Listening on port 53710
+1556931039024	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931039103	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931039111	Marionette	DEBUG	[6442450945] Frame script registered
+1556931039344	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931040414	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931040766	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931040776	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931040786	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931040864	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931045554	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931045555	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931045570	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931051108	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556931051125	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556931052897	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1556931053214	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931053732	Marionette	INFO	Stopped listening on port 53710
+[Child 16032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Child 16672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16672[Parent 10744, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1556931124465	geckodriver	INFO	geckodriver 0.20.1
+1556931124484	geckodriver	INFO	Listening on 127.0.0.1:53902
+1556931127506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.274JSNA8seop"
+*** You are running in headless mode.
+1556931133209	Marionette	INFO	Listening on port 53912
+1556931133336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931133387	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931133390	Marionette	DEBUG	[6442450945] Frame script registered
+1556931133420	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931134709	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931134890	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931134894	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931134901	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931134942	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931139612	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931139613	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931139671	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931142812	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556931143099	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556931145143	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1556931146630	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1556931147147	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931147412	Marionette	INFO	Stopped listening on port 53912
+[Child 5796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5796, [Child 2908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 13044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1556931296084	geckodriver	INFO	geckodriver 0.20.1
+1556931296108	geckodriver	INFO	Listening on 127.0.0.1:54172
+1556931299118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.MjLzrPvzxs5Y"
+*** You are running in headless mode.
+1556931305896	Marionette	INFO	Listening on port 54183
+1556931306531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931306582	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931306585	Marionette	DEBUG	[6442450945] Frame script registered
+1556931306631	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931308027	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931308215	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931308219	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931308224	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931308256	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931312371	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931312372	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931312384	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931315473	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556931316645	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1556931317599	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1556931317894	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931318586	Marionette	INFO	Stopped listening on port 54183
+[Parent 8548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10060, Chrome_ChildThread] WARNING: pipe error: 109: fil[Parent 8548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1051556931336056	geckodriver	INFO	geckodriver 0.20.1
+1556931336076	geckodriver	INFO	Listening on 127.0.0.1:54324
+1556931339137	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.y5vOFajaucf0"
+*** You are running in headless mode.
+1556931344961	Marionette	INFO	Listening on port 54334
+1556931345432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931345482	Marionette	DEBUG	[4294967297] Frame script loaded
+1556931345486	Marionette	DEBUG	[4294967297] Frame script registered
+1556931345519	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1556931347458	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1556931347619	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931347623	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931347632	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931347701	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931351062	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967302
+1556931351062	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967303
+1556931351068	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931354443	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967311
+1556931355421	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967315
+1556931355668	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931356190	Marionette	INFO	Stopped listening on port 54334
+[Child 12504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1[Parent 15576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7472, C1556931391059	geckodriver	INFO	geckodriver 0.20.1
+1556931391082	geckodriver	INFO	Listening on 127.0.0.1:54489
+1556931394097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.XEJpdfadkEm5"
+*** You are running in headless mode.
+1556931400146	Marionette	INFO	Listening on port 54500
+1556931400411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931400491	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931400495	Marionette	DEBUG	[6442450945] Frame script registered
+1556931400539	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931402144	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931402298	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931402311	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931402323	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931402456	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931405696	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931405721	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931405737	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931408630	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556931408663	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556931410617	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1556931411797	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931412534	Marionette	INFO	Stopped listening on port 54500
+[Child 9960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5528, Chrom[Parent 6008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 151556931435330	geckodriver	INFO	geckodriver 0.20.1
+1556931435351	geckodriver	INFO	Listening on 127.0.0.1:54637
+1556931438367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.urjL5kSUb7BP"
+*** You are running in headless mode.
+1556931443188	Marionette	INFO	Listening on port 54647
+1556931443623	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931443702	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931443900	Marionette	DEBUG	[6442450945] Frame script registered
+1556931443941	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931445996	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931446132	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931446136	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931446142	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931446188	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931449872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931449872	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931449894	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931452593	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556931453589	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1556931454434	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1556931454735	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931455781	Marionette	INFO	Stopped listening on port 54647
+[Child 14440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14440, Chrome_ChildThread] WARNING: pip[Parent 3232, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1556931484473	geckodriver	INFO	geckodriver 0.20.1
+1556931484492	geckodriver	INFO	Listening on 127.0.0.1:54812
+1556931487515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.RJMZYWgn2cWF"
+*** You are running in headless mode.
+1556931493082	Marionette	INFO	Listening on port 54823
+1556931493296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931493350	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931493366	Marionette	DEBUG	[6442450945] Frame script registered
+1556931493404	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931500328	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931500468	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931500481	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931500490	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931500548	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931503617	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931503617	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931503618	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931506638	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556931506657	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1556931507737	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1556931508679	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1556931509156	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931510092	Marionette	INFO	Stopped listening on port 54823
+[Child 6420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 641556931550867	geckodriver	INFO	geckodriver 0.20.1
+1556931550887	geckodriver	INFO	Listening on 127.0.0.1:55025
+1556931553908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.7bZ34IfP2iwN"
+*** You are running in headless mode.
+1556931559119	Marionette	INFO	Listening on port 55036
+1556931559173	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931559224	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931559229	Marionette	DEBUG	[6442450945] Frame script registered
+1556931559335	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931560911	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931561077	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931561084	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931561093	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931561211	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931564504	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931564505	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931564549	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931567142	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1556931568774	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1556931569952	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1556931570804	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931572171	Marionette	INFO	Stopped listening on port 55036
+[Child 16508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16508, Chro[Parent 17296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14684,[Parent 17296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11556931688198	geckodriver	INFO	geckodriver 0.20.1
+1556931688217	geckodriver	INFO	Listening on 127.0.0.1:55318
+1556931691248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.znVwNZMoHdjz"
+*** You are running in headless mode.
+1556931697011	Marionette	INFO	Listening on port 55328
+1556931697104	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556931697169	Marionette	DEBUG	[6442450945] Frame script loaded
+1556931697177	Marionette	DEBUG	[6442450945] Frame script registered
+1556931697264	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1556931699558	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1556931699671	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931699675	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1556931699684	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931699727	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1556931703001	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1556931703001	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1556931703040	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1556931705701	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1556931705712	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1556931706860	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1556931707841	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1556931708043	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1556931708781	Marionette	INFO	Stopped listening on port 55328
+[Parent 14128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common
