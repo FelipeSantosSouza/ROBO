@@ -452,4 +452,34 @@ JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unre
 [Parent 14128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Parent 14128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common
+[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common1557003538789	geckodriver	INFO	geckodriver 0.20.1
+1557003538806	geckodriver	INFO	Listening on 127.0.0.1:61823
+1557003542889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\FELIPE~1\\AppData\\Local\\Temp\\rust_mozprofile.EX9NuRX8o6NM"
+*** You are running in headless mode.
+1557003603689	Marionette	INFO	Listening on port 61837
+[Child 15872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1557003604857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557003604909	Marionette	DEBUG	[4294967297] Frame script loaded
+1557003604912	Marionette	DEBUG	[4294967297] Frame script registered
+1557003607336	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1557003609055	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1557003609177	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1557003609184	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.bancopan.com.br/produtos/investimentos/
+1557003609191	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1557003609235	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.bancopan.com.br/produtos/investimentos/
+JavaScript warning: https://cdn.freshmarketer.com/185800/510741.js, line 3: unreachable code after return statement
+1557003613892	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967302
+1557003613892	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967303
+1557003613895	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bancopan.com.br/produtos/investimentos/
+1557003618256	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967308
+1557003619021	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967310
+1557003620386	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967314
+1557003621372	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967318
+1557003621384	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bancopan.com.br/produtos/investimentos/
+1557003622278	Marionette	INFO	Stopped listening on port 61837
+[Child 10872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 5808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1356, Chrome_ChildThread[Parent 5808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16796, Chrome_ChildThread

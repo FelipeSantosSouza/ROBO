@@ -17,7 +17,7 @@ def start():
     lista = gerarInvestimentoEsp(elemento)
     driver.quit()
     #display.stop()
-    #toJson(lista)
+    toJson(lista)
 
 def gerarInvestimentoEsp(elemento):
     listaInv = []
@@ -35,7 +35,11 @@ def gerarInvestimentoEsp(elemento):
                     check = 1
                 elif(l.text not in '-') and (l.text not in '') and (check == 1):
                     rentabilidade = l.text
+                    aplicacao_min = 100
+                    ir = -1
+                    investimento = inv('Indefinido', dominio, rentabilidade, aplicacao_min, ir, -1, tipo)
                     print(rentabilidade)
+                    listaInv.append(investimento)
                     break
         except:
             print("Investimento Nulo!")
