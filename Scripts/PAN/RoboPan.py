@@ -11,7 +11,7 @@ def start():
     #display.start()
     opt = Options()
     opt.headless = True
-    driver = webdriver.Firefox(options=opt, executable_path=r'C:/geckodriver')
+    driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "table-desktop")
     lista = gerarInvestimentoEsp(elemento)
