@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
-#from pyvirtualdisplay import Display
+from pyvirtualdisplay import Display
 from  Investimento import Investimento as inv
 import json
 dominio = "https://www.bancopan.com.br/produtos/investimentos/"
