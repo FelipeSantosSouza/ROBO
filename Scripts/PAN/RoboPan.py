@@ -16,7 +16,7 @@ def start():
     elemento = driver.find_element(By.CLASS_NAME, "table-desktop")
     lista = gerarInvestimentoEsp(elemento)
     driver.quit()
-    #display.stop()
+    display.stop()
     toJson(lista)
 
 def gerarInvestimentoEsp(elemento):
