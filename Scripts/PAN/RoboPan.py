@@ -7,8 +7,8 @@ import json
 dominio = "https://www.bancopan.com.br/produtos/investimentos/"
 
 def start():
-    #display = Display(visible=0, size=(1024, 768))
-    #display.start()
+    display = Display(visible=0, size=(1024, 768))
+    display.start()
     opt = Options()
     opt.headless = True
     driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
