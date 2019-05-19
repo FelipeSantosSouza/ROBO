@@ -14,6 +14,7 @@ def start():
     opt.headless = True
     driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
     print("Capturando o dominio: " + dominio)
+    driver.implicitly_wait(10)
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "product")
     print(elemento)
