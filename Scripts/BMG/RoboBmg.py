@@ -7,11 +7,13 @@ import json
 dominio = "https://www.bmginvestdigital.com.br/Home/investimentos"
 
 def start():
+    print("Iniciando display virtual")
     display = Display(visible=0, size=(1024, 768))
     display.start()
     opt = Options()
     opt.headless = True
     driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
+    print("Capturando o dominio: ".join(dominio))
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "product")
     lista = gerarInvestimentoEsp(elemento)
@@ -21,6 +23,7 @@ def start():
 
 def gerarInvestimentoEsp(elemento):
     listaInv = []
+    print("Percorrendo o dominio ...")
     elementos = elemento.find_elements(By.CLASS_NAME, "product__details__list")
     for e in elementos:
         try:
@@ -34,14 +37,15 @@ def gerarInvestimentoEsp(elemento):
             investimento = inv(prazo, dominio, rentabilidade, aplicacao_min, ir, liquidez, tipo)
             listaInv.append(investimento)
         except:
-            print("Erro na capura: ".join(str(e)))
+            print("Erro na capura do elemento: ".join(str(e)))
     return listaInv
 
 def toJson(lista):
+    print("Iniciando salvamento do json...")
     conteudo = []
     for linha in lista:
         conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "aplicacao_min":linha.aplicacao_min, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
     with open('jsonBmg.json', 'w', encoding="utf8") as outfile:
         json.dump(conteudo, outfile, default="serialize")
-
+    print("Json salvo!")
 start()
