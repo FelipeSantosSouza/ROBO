@@ -17,7 +17,9 @@ def start():
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "table-desktop")
     lista = gerarInvestimentoEsp(elemento)
+    print("Fechando o driver ...")
     driver.quit()
+    print("Parando o display ...")
     display.stop()
     toJson(lista)
 
