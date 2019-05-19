@@ -34,7 +34,7 @@ def gerarInvestimentoEsp(elemento):
             investimento = inv(prazo, dominio, rentabilidade, aplicacao_min, ir, liquidez, tipo)
             listaInv.append(investimento)
         except:
-            print("Investimento Nulo!")
+            print("Erro na capura: ".join(str(e)))
     return listaInv
 
 def toJson(lista):

@@ -42,7 +42,7 @@ def gerarInvestimentoEsp(elemento):
                     listaInv.append(investimento)
                     break
         except:
-            print("Investimento Nulo!")
+            print("Erro na capura: ".join(str(e)))
     return listaInv
 
 def toJson(lista):
