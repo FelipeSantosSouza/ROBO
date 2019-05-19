@@ -13,7 +13,7 @@ def start():
     opt = Options()
     opt.headless = True
     driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
-    print("Capturando o dominio: ".join(dominio))
+    print("Capturando o dominio: " + dominio)
     driver.get(dominio)
     elemento = driver.find_element(By.CLASS_NAME, "product")
     lista = gerarInvestimentoEsp(elemento)
@@ -37,7 +37,7 @@ def gerarInvestimentoEsp(elemento):
             investimento = inv(prazo, dominio, rentabilidade, aplicacao_min, ir, liquidez, tipo)
             listaInv.append(investimento)
         except:
-            print("Erro na capura do elemento: ".join(str(e)))
+            print("Erro na capura do elemento: " + str(e))
     return listaInv
 
 def toJson(lista):
