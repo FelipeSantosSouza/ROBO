@@ -14,7 +14,7 @@ def start():
     opt.headless = True
     driver = webdriver.Firefox(options=opt, executable_path=r'/opt/geckodriver')
     print("Capturando o dominio: " + dominio)
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(15)
     driver.get(dominio)
     driver.find_element(By.XPATH,"//span[contains(.,'Mostrar todos os CDB BMG DI')]").click()
     driver.find_element(By.XPATH,"//span[contains(.,'Mostrar todos os CDB BMG IPCA +')]").click()
