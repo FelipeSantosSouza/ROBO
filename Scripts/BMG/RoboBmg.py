@@ -46,8 +46,8 @@ def gerarInvestimentoEsp(elemento):
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = -1
             tipo = "CDB"
-            investimento = inv(str(validacao(prazo)), str(validacao(dominio)), str(validacao(rentabilidade)), str(validacao(aplicacao_min)), 
-            str(ir), str(validacao(liquidez)), str(validacao(tipo)))
+            investimento = inv(validacao(str(prazo)), validacao(str(dominio)), validacao(str(rentabilidade)), validacao(str(aplicacao_min)), 
+            validacao(str(ir)), validacao(str(liquidez)), validacao(str(tipo)))
             listaInv.append(investimento)
        # except:
         #    print("Erro na capura do elemento: " + str(e))
