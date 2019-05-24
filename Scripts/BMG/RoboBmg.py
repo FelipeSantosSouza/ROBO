@@ -31,7 +31,7 @@ def start():
 def validacao(elemento):
     if ('\n' in elemento):
         print("entrou")
-        elemento.replace("\n", "")
+        elemento.replace("\\n", "")
     return elemento
 
 def gerarInvestimentoEsp(elemento):
