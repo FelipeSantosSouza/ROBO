@@ -29,7 +29,7 @@ def start():
     toJson(lista)
 
 def validacao(elemento):
-    if ('\r\n' in elemento.strip()):
+    if ('\r\n' in elemento):
         print("entrou")
         elemento.replace('\r\n','')
     return elemento
