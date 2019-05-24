@@ -30,8 +30,7 @@ def start():
 
 def validacao(elemento):
     if ('\n' in elemento):
-        print("entrou")
-        elemento.replace("\r\n", "")
+        elemento = elemento.replace("\n", "")
     return elemento
 
 def gerarInvestimentoEsp(elemento):
@@ -39,7 +38,7 @@ def gerarInvestimentoEsp(elemento):
     print("Percorrendo o dominio ...")
     elementos = elemento.find_elements(By.CLASS_NAME, "product__details__list")
     for e in elementos:
-        #try:
+        try:
             texto = e.text
             prazo = texto[texto.index("Prazo:")+len("Prazo:"):texto.index("Taxa*:")-1]
             rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")+1]
@@ -51,8 +50,8 @@ def gerarInvestimentoEsp(elemento):
             investimento = inv(validacao(str(prazo)), validacao(str(dominio)), validacao(str(rentabilidade)), validacao(str(aplicacao_min)), 
             validacao(str(ir)), validacao(str(liquidez)), validacao(str(tipo)))
             listaInv.append(investimento)
-       # except:
-        #    print("Erro na capura do elemento: " + str(e))
+        except:
+           print("Erro na capura do elemento: " + str(e))
     return listaInv
 
 def toJson(lista):
