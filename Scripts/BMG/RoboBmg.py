@@ -29,8 +29,8 @@ def start():
     toJson(lista)
 
 def validacao(elemento):
-    if ("\\n" in elemento):
-        elemento.replace("\\n","")
+    if ('\\n' in elemento):
+        elemento.replace('\\n','')
     return elemento
 
 def gerarInvestimentoEsp(elemento):
