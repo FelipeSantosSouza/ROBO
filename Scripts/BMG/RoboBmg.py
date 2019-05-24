@@ -38,7 +38,7 @@ def gerarInvestimentoEsp(elemento):
     print("Percorrendo o dominio ...")
     elementos = elemento.find_elements(By.CLASS_NAME, "product__details__list")
     for e in elementos:
-        #try:
+        try:
             texto = e.text
             prazo = texto[texto.index("Prazo:")+len("Prazo:"):texto.index("Taxa*:")-1]
             rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")-1]
@@ -46,10 +46,10 @@ def gerarInvestimentoEsp(elemento):
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = -1
             tipo = "CDB"
-            investimento = inv(validacao(prazo), validacao(dominio), validacao(rentabilidade), validacao(aplicacao_min), validacao(ir), validacao(liquidez), validacao(tipo))
+            investimento = inv(validacao(prazo), validacao(dominio), validacao(rentabilidade), validacao(aplicacao_min), ir, validacao(liquidez), validacao(tipo))
             listaInv.append(investimento)
-       # except:
-        #    print("Erro na capura do elemento: " + str(e))
+        except:
+           print("Erro na capura do elemento: " + str(e))
     return listaInv
 
 def toJson(lista):
