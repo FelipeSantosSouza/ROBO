@@ -28,6 +28,11 @@ def start():
     display.stop()
     toJson(lista)
 
+def validacao(elemento):
+    if("\n" in elemento):
+        elemento.replace("\n","")
+    return elemento
+
 def gerarInvestimentoEsp(elemento):
     listaInv = []
     print("Percorrendo o dominio ...")
@@ -41,7 +46,7 @@ def gerarInvestimentoEsp(elemento):
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = -1
             tipo = "CDB"
-            investimento = inv(prazo, dominio, rentabilidade, aplicacao_min, ir, liquidez, tipo)
+            investimento = inv(validacao(prazo), validacao(dominio), validacao(rentabilidade), validacao(aplicacao_min), validacao(ir), validacao(liquidez), validacao(tipo)
             listaInv.append(investimento)
         except:
             print("Erro na capura do elemento: " + str(e))
@@ -55,4 +60,6 @@ def toJson(lista):
     with open('jsonBmg.json', 'w', encoding="utf8") as outfile:
         json.dump(conteudo, outfile, default="serialize")
     print("Json salvo!")
+
+
 start()
