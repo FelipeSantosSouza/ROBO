@@ -29,9 +29,9 @@ def start():
     toJson(lista)
 
 def validacao(elemento):
-    if ('\r\n' in elemento):
+    if ('\n' in elemento):
         print("entrou")
-        elemento.strip("\r\n")
+        elemento.strip("\n")
     return elemento
 
 def gerarInvestimentoEsp(elemento):
@@ -44,11 +44,12 @@ def gerarInvestimentoEsp(elemento):
             prazo = texto[texto.index("Prazo:")+len("Prazo:"):texto.index("Taxa*:")-1]
             rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")]
             aplicacao_min = texto[texto.index("R$")+len("R$"):texto.index("Li")-1]
+            print(aplicacao_min)
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = -1
             tipo = "CDB"
-            investimento = inv(validacao(str(prazo)).strip(), validacao(str(dominio)).strip(), validacao(str(rentabilidade)).strip(), validacao(str(aplicacao_min)).strip(), 
-            validacao(str(ir)).strip(), validacao(str(liquidez)).strip(), validacao(str(tipo).strip()))
+            investimento = inv(validacao(str(prazo)), validacao(str(dominio)), validacao(str(rentabilidade)), validacao(str(aplicacao_min)), 
+            validacao(str(ir)), validacao(str(liquidez)), validacao(str(tipo)))
             listaInv.append(investimento)
        # except:
         #    print("Erro na capura do elemento: " + str(e))
