@@ -56,7 +56,7 @@ def toJson(lista):
     conteudo = []
     for linha in lista:
         conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "aplicacao_min":linha.aplicacao_min, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
-    with open('jsonBmg.json', 'w', encoding="utf8") as outfile:
+    with open(r'/home/ubuntu/ROBO/Scripts/PAN/jsonPan.json', 'w', encoding="utf8") as outfile:
         json.dump(conteudo, outfile, default="serialize")
     print("Json salvo!")
 start()
