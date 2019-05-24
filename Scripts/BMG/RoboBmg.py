@@ -30,6 +30,7 @@ def start():
 
 def validacao(elemento):
     if ('\\n' in elemento):
+        print("entrou")
         elemento.replace('\\n','')
     return elemento
 
@@ -41,7 +42,7 @@ def gerarInvestimentoEsp(elemento):
         #try:
             texto = e.text
             prazo = texto[texto.index("Prazo:")+len("Prazo:"):texto.index("Taxa*:")-1]
-            rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")-1]
+            rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")]
             aplicacao_min = texto[texto.index("R$")+len("R$"):texto.index("Li")-1]
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = -1
