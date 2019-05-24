@@ -29,9 +29,9 @@ def start():
     toJson(lista)
 
 def validacao(elemento):
-    if ('n' in elemento.strip()):
+    if ('\r\n' in elemento.strip()):
         print("entrou")
-        elemento.replace('\\n','')
+        elemento.replace('\r\n','')
     return elemento
 
 def gerarInvestimentoEsp(elemento):
@@ -42,7 +42,7 @@ def gerarInvestimentoEsp(elemento):
         #try:
             texto = e.text
             prazo = texto[texto.index("Prazo:")+len("Prazo:"):texto.index("Taxa*:")-1]
-            rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")]
+            rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")+1]
             aplicacao_min = texto[texto.index("R$")+len("R$"):texto.index("Li")-1]
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = -1
