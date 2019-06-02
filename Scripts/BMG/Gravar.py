@@ -1,4 +1,4 @@
 import requests
 
 url = 'http://ec2-18-222-220-54.us-east-2.compute.amazonaws.com:9000/insertInvetimento'
-requests.post(url, data=open('jsonBmg.json', 'rb'))
+r = requests.post(url, data=open('jsonBmg.json', 'rb'))
