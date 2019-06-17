@@ -42,12 +42,12 @@ def gerarInvestimentoEsp(elemento):
             texto = e.text
             prazo = texto[texto.index("Prazo:")+len("Prazo:"):texto.index("Taxa*:")-1]
             rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")+1]
-            aplicacao_min = texto[texto.index("R$")+len("R$"):texto.index("Li")-1]
-            print(aplicacao_min)
+            valorMin = texto[texto.index("R$")+len("R$"):texto.index("Li")-1]
+            print(valorMin)
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = -1
             tipo = "CDB"
-            investimento = inv(validacao(str(prazo)), validacao(str(dominio)), validacao(str(rentabilidade)), validacao(str(aplicacao_min)), 
+            investimento = inv(validacao(str(prazo)), validacao(str(dominio)), validacao(str(rentabilidade)), validacao(str(valorMin)), 
             validacao(str(ir)), validacao(str(liquidez)), validacao(str(tipo)))
             listaInv.append(investimento)
         except:
@@ -58,7 +58,7 @@ def toJson(lista):
     print("Iniciando salvamento do json...")
     conteudo = []
     for linha in lista:
-        conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "aplicacao_min":linha.aplicacao_min, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
+        conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "valorMin":linha.valorMin, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
     with open('jsonBmg.json', 'w', encoding="utf8") as outfile:
         json.dump(conteudo, outfile, default="serialize")
     print("Json salvo!")
