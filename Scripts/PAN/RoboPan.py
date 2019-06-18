@@ -42,8 +42,9 @@ def gerarInvestimentoEsp(elemento):
                 elif(l.text not in '-') and (l.text not in '') and (check == 1):
                     rentabilidade = l.text
                     valorMin = 100
-                    ir ="Dado Indisponivel"
+                    ir = "Dado Indisponível"
                     investimento = inv('Indefinido', dominio, rentabilidade, valorMin, ir, "Dado Indisponivel", tipo)
+                    print(rentabilidade)
                     listaInv.append(investimento)
                     break
         except:
