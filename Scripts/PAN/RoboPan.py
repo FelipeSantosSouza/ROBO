@@ -55,7 +55,7 @@ def toJson(lista):
     print("Iniciando salvamento do json...")
     conteudo = []
     for linha in lista:
-        conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "valorMin":linha.valorMin, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
+        conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "valorMim":linha.valorMin, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
     with open('jsonPan.json', 'w', encoding="utf8") as outfile:
         json.dump(conteudo, outfile, default="serialize")
     print("Json salvo!")
