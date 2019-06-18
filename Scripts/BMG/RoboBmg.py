@@ -43,7 +43,7 @@ def gerarInvestimentoEsp(elemento):
             prazo = texto[texto.index("Prazo:")+len("Prazo:"):texto.index("Taxa*:")-1]
             rentabilidade = texto[texto.index("*:")+len("*:"):texto.index("%")+1]
             valorMin = texto[texto.index("R$")+len("R$"):texto.index("Li")-1]
-            print(valorMin)
+            print("Elemento capturado - " + "Valor Minimo: " +valorMin + "-" + "Rentabilidade: " + rentabilidade + "-" + "Prazo: " + prazo)
             ir = texto[texto.index("IR:")+len("IR:"):texto.index("Apl")-1]
             liquidez = "Dado Indisponível"
             tipo = "CDB"
