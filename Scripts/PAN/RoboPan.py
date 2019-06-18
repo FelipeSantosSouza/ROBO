@@ -42,9 +42,9 @@ def gerarInvestimentoEsp(elemento):
                 elif(l.text not in '-') and (l.text not in '') and (check == 1):
                     rentabilidade = l.text
                     valorMin = 100
-                    ir = -1
-                    investimento = inv('Indefinido', dominio, rentabilidade, valorMin, ir, -1, tipo)
-                    print(rentabilidade)
+                    ir ="Dado Indisponivel"
+                    investimento = inv('Indefinido', dominio, rentabilidade, valorMin, ir, "Dado Indisponivel", tipo)
+                    print("Elemento capturado - " + "Valor Minimo: " +valorMin + " - " + "Rentabilidade: " + rentabilidade + " - " + "Prazo: " + prazo)
                     listaInv.append(investimento)
                     break
         except:
@@ -55,7 +55,7 @@ def toJson(lista):
     print("Iniciando salvamento do json...")
     conteudo = []
     for linha in lista:
-        conteudo.append([{"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "valorMim":linha.valorMin, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo}])
+        conteudo.append({"dominio":linha.dominio, "prazo":linha.prazo, "rentabilidade":linha.rentabilidade, "valorMim":linha.valorMin, "ir":linha.ir, "liquidez":linha.liquidez, "tipo":linha.tipo})
     with open('jsonPan.json', 'w', encoding="utf8") as outfile:
         json.dump(conteudo, outfile, default="serialize")
     print("Json salvo!")
