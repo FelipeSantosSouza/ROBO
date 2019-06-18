@@ -16,6 +16,7 @@ def start():
     print("Capturando o dominio: " + dominio)
     driver.implicitly_wait(100)
     driver.get(dominio)
+    driver.implicitly_wait(100)
     driver.find_element(By.XPATH,"//span[contains(.,'Mostrar todos os CDB DI')]").click()
     driver.find_element(By.XPATH,"//span[contains(.,'Mostrar todos os CDB IPCA +')]").click()
     driver.find_element(By.XPATH,"//span[contains(.,'Mostrar todos os CDB PRÉ')]").click()
