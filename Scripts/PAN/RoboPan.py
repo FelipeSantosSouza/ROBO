@@ -47,7 +47,7 @@ def gerarInvestimentoEsp(elemento):
                     print("Elemento capturado - " + "Valor Minimo: " +valorMin + " - " + "Rentabilidade: " + rentabilidade)
                     listaInv.append(investimento)
                     break
-        except as e:
+        except Exception as ex:
             print(e)
             print("Erro na capura: " + str(e))
     return listaInv
