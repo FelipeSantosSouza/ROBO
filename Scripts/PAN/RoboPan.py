@@ -44,7 +44,7 @@ def gerarInvestimentoEsp(elemento):
                     valorMin = 100
                     ir ="Dado Indisponivel"
                     investimento = inv('Indefinido', dominio, rentabilidade, valorMin, ir, "Dado Indisponivel", tipo)
-                    print("Elemento capturado - " + "Valor Minimo: " +valorMin + " - " + "Rentabilidade: " + rentabilidade + " - " + "Prazo: " + prazo)
+                    print("Elemento capturado - " + "Valor Minimo: " +valorMin + " - " + "Rentabilidade: " + rentabilidade)
                     listaInv.append(investimento)
                     break
         except:
